@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="/jquery-3.6.4.min.js"></script>
+    <title>WITCLO</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header class="hdrmain">
+            <nav class="navmain">
+                <img src="./src/img/logo.png" alt="Logo WITCLO" id="logo" class="navimgs">
+                <ul class="ulmain">
+                    <li class="menulink"><a href="#">Home</a></li>
+                    <li class="menulink"><a href="#">About</a></li>
+                    <li class="menulink"><a href="#">Contact</a></li>
+                </ul>
+                <div class="navicon">
+                    <img src="./src/img/darkmode-icon.png" alt="Icone para modo escuro" class="navimgs"
+                        id="bttDarkMode">
+                    <img src="./src/img/sacola-icon.png" alt="Icone do carrinho de compras" class="navimgs">
+                </div>
+            </nav>
+        </header>
+
+        <section class="contmain">
+            <div class="secmain">
+                <img id="bg1" src="./src/img/bg-graffiti.png" alt="Imagem de um desenho grafitado" srcset="">
+                <img id="bg2" src="./src/img/ftboy-main.png" alt="Imagem de um homem com um chapéu e roupa branca"
+                    srcset="">
+
+                <div class="scmedia" id="scmedia">
+                    <img src="./src/img/gmail-icon.png" alt="Icone do Gmail" class="imgscmedia">
+                    <img src="./src/img/tw-icon.png" alt="Icone do Twitter" class="imgscmedia">
+                    <img src="./src/img/insta-icon.png" alt="Icone do Instagram" class="imgscmedia">
+                </div>
+                <div class="textsmain">
+                    <h1 class="secmainh1" id="secmainh1">WITCLO</h1>
+                    <p class="psmain">Lorem ipsum dolor sit, amet consectetur</p>
+                    <button type="button" id="bttSP">See Products</button>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <section class="menu-side">
+        <img src="./src/img/nav-side-icon.png" alt="Botão de fechar a barra lateral" id="bttNav-side1"
+            class="bttNav-side">
+        <img src="./src/img/nav-side-icon2.png" alt="Botão de fechar a barra lateral" id="bttNav-side2"
+            class="bttNav-side">
+        <nav class="nav-side" id="nav-side">
+            <ul class="ulmenu">
+                <li class="menulink-side"><a href="#">Home</a></li>
+                <li class="menulink-side"><a href="#">About</a></li>
+                <li class="menulink-side"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="./src/img/darkmode-icon.png" alt="Icone para modo escuro" class="navimgs" id="bttDarkMode-side">
+    </section>
+
+    <section class="secShopProd">
+        <h1 class="tith1">Shop Products</h1>
+
+        <div class="products" id="products">
+            <div class="product-box" id="product-box">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon"
+                        onclick="noProd()">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+            <div class="product-box">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon"
+                        onclick="noProd()">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+            <div class="product-box">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon"
+                        onclick="noProd()">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+            <div class="product-box cImgZI">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart "
+                        id="favh4">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon "
+                        onclick="noProd()" id="sac4">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+            <div class="product-box">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon"
+                        onclick="noProd()">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+            <div class="product-box">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon"
+                        onclick="noProd()">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+            <div class="product-box">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon"
+                        onclick="noProd()">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+            <div class="product-box cImgZI">
+                <img class="imgsprod" src="./src/img/book/prod1.jpg"
+                    alt="Produto 1 Pessoa de bicicleta com roupas pretas">
+                <h2 class="prodh2">OUTFIT BLACK</h2>
+                <p class="price">$25</span>
+                <div class="options">
+                    <img src="./src/img/heart-icon.png" alt="Icone de coração azul" class="img-opts favheart"
+                        id="favh8">
+                    <img src="./src/img/sacola2-icon.png" alt="Icone de sacola azul" class="img-opts sac-icon"
+                        onclick="noProd()" id="sac8">
+
+                </div>
+                <img src="./src/img/heart-active.png" alt="Icone de sacola azul" class="img-opts1 heart-act">
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
